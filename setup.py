@@ -6,7 +6,7 @@ setup(
     name='django-force-error',
     version='1.0.0b0',
     description=(
-        'Ready to use Django views that produce errors. For testing your error'
+        'Ready to use Django views that produce errors for testing your error'
         ' reporting.'
     ),
     author='Quantitative Engineering Design Inc.',
