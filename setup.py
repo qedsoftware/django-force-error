@@ -4,7 +4,7 @@ from distutils.core import setup
 
 setup(
     name='django-force-error',
-    version='1.0.0b0',
+    version='1.0.0b1',
     description=(
         'Ready to use Django views that produce errors for testing your error'
         ' reporting.'
@@ -20,10 +20,9 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.2',
-        'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
         'Framework :: Django',
     ],
     install_requires=[
