@@ -19,10 +19,8 @@ def main():
     )
     django.setup()
 
-
     test_runner = DiscoverRunner(verbosity=1)
     test_runner.run_tests(['force_error'])
-
 
 if __name__ == '__main__':
     main()
